@@ -26,12 +26,6 @@ theme = "tailwind"
     pageRef = "/posts"
     weight = 0
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    pageRef = "/about"
-    weight = 10
-
 [taxonomies]
 category = "categories"
 tag = "tags"
