@@ -1,35 +1,38 @@
-baseURL = 'https://example.org/'
-languageCode = 'es'
-title = 'Ingenium '
-theme = 'github-style'
-pygmentsCodeFences = true
-pygmentsUseClasses = true
+baseURL = "https://gaspect.github.io/ingenium/"
+title = "Ingenium"
+author = "Jesús Enrique & Claudia Palenzuela"
+copyright = "Jesús Enrique & Claudia Palenzuela"
+paginate = 10
+languageCode = "es"
+theme = "tailwind"
 
 [params]
-  author = "Ingenium"
-  description = "Para programadores e ingenieros de parte de programadores e ingenieros."
-  github = "gaspect & queenOfThorn"
-  url = "https://gaspect.github.io/ingenium/"
-  keywords = "blog, google analytics"
-  rss = true
-  lastmod = true
-  userStatusEmoji = "😎"
-  favicon = "/images/github.png"
-  avatar = "/ingenium/images/avatar.png"
-  headerIcon = "/images/GitHub-Mark-Light-32px.png"
-  location = "La Habana, Cuba"
-  enableGitalk = true
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
-  [params.gitalk]
-    clientID = "016b5fc60fdc7ee66d07"
-    clientSecret = "bad4a7551676d06483adc298fd0b5e260fadd390"
-    repo = "ingenium"
-    owner = "gaspect" 
-    admin = "gaspect"
-    id = "location.pathname"
-    labels = "gitalk"
-    perPage = 15
-    pagerDirection = "last"
-    createIssueManually = true
-    distractionFreeMode = false
-    avatar = "/ingenium/images/avatar.png"
+  [params.header]
+    logo = "avatar.png"
+
+  [params.footer]
+    since = 2024
+    poweredby = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 0
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
