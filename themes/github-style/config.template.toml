@@ -46,7 +46,7 @@ pygmentsUseClasses = true
   [[params.links]]
     title = "Link2"
     href = "https://meik2333.com"
-    icon = "https://meik2333.com/images/avatar.png"
+    icon = "https://meik2333.com/ingenium/images/avatar.png"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
