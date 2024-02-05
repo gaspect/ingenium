@@ -18,15 +18,21 @@ theme = "tailwind"
     since = 2024
     poweredby = false
 
-[menu]
+  [params.giscus]
+    enabled = true
+    repo = "gaspect/ingenium"
+    repoID = "R_kgDOLOB0ow"
+    category = "Announcements"
+    categoryID = "DIC_kwDOLOB0o84Cc853"
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    lang = "es"
 
-  [[menu.main]]
-    identifier = "post"
-    name = "Post"
-    pageRef = "/posts"
-    weight = 0
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
