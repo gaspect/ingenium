@@ -9,7 +9,7 @@ pygmentsUseClasses = true
   author = "Ingenium"
   description = "Para programadores e ingenieros de parte de programadores e ingenieros."
   github = "gaspect & queenOfThorn"
-  url = "https://meik2333.com"
+  url = "https://gaspect.github.io/ingenium/"
   keywords = "blog, google analytics"
   rss = true
   lastmod = true
@@ -18,3 +18,17 @@ pygmentsUseClasses = true
   avatar = "/images/avatar.png"
   headerIcon = "/images/GitHub-Mark-Light-32px.png"
   location = "La Habana, Cuba"
+  enableGitalk = true
+
+  [params.gitalk]
+    clientID = "016b5fc60fdc7ee66d07"
+    clientSecret = "bad4a7551676d06483adc298fd0b5e260fadd390"
+    repo = "ingenium"
+    owner = "gaspect" 
+    admin = "gaspect"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
