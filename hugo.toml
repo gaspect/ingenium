@@ -32,4 +32,5 @@ pygmentsUseClasses = true
     pagerDirection = "last"
     createIssueManually = true
     distractionFreeMode = false
-    avatar = "/images/avatar.png"
+    avatar = "/ingenium/images/avatar.png"
+    favicon = "/ingenium/images/avatar.png"
