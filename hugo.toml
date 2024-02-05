@@ -1,0 +1,20 @@
+baseURL = 'https://example.org/'
+languageCode = 'es'
+title = 'Ingenium '
+theme = 'github-style'
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Ingenium"
+  description = "Para programadores e ingenieros de parte de programadores e ingenieros."
+  github = "gaspect & queenOfThorn"
+  url = "https://meik2333.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😎"
+  favicon = "/images/github.png"
+  avatar = "/images/avatar.png"
+  headerIcon = "/images/GitHub-Mark-Light-32px.png"
+  location = "La Habana, Cuba"
