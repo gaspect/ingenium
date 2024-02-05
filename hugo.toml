@@ -32,3 +32,4 @@ pygmentsUseClasses = true
     pagerDirection = "last"
     createIssueManually = true
     distractionFreeMode = false
+    avatar = "/images/avatar.png"
